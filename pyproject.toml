@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cv-ats-check"
+version = "1.0.0"
+description = "Check whether a CV is readable by an applicant tracking system (ATS), and which job offer keywords it misses."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["pypdf>=5"]
+keywords = ["cv", "resume", "ats", "applicant tracking system", "job search", "recherche d'emploi"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License",
+               "Topic :: Office/Business", "Natural Language :: French", "Natural Language :: English"]
+
+[project.optional-dependencies]
+web = ["gradio>=5"]
+
+[project.scripts]
+cv-ats-check = "cv_ats_check.__main__:main"
+
+[project.urls]
+Homepage = "https://github.com/maelon111/cv-ats-check"
+"Analyse IA gratuite" = "https://jobspeeder.online/analyse-cv"
+
+[tool.setuptools]
+packages = ["cv_ats_check"]
