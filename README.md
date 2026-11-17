@@ -5,7 +5,7 @@
 mise en page en colonnes, et mots-clés de l'offre que votre CV ne contient pas. Tout tourne sur votre ordinateur :
 pas d'IA, pas de réseau, rien n'est envoyé.
 
-- Essayer en ligne, sans rien installer : [Hugging Face Space](https://huggingface.co/spaces/raphaelsellami/cv-ats-check)
+- Essayer en ligne, sans rien installer : [Hugging Face Space](https://huggingface.co/spaces/RaphMael/cv-ats-check)
 - Analyse plus poussée par IA, gratuite, avec conseils par e-mail (français, anglais, arabe) :
   [jobspeeder.online/analyse-cv](https://jobspeeder.online/analyse-cv?utm_source=github&utm_medium=readme&utm_campaign=cv-ats-check)
 
@@ -115,7 +115,7 @@ pip install git+https://github.com/maelon111/cv-ats-check
 cv-ats-check resume.pdf --offer job.txt --lang en
 ```
 
-Online demo: [Hugging Face Space](https://huggingface.co/spaces/raphaelsellami/cv-ats-check). Free AI review with
+Online demo: [Hugging Face Space](https://huggingface.co/spaces/RaphMael/cv-ats-check). Free AI review with
 tips by email: [jobspeeder.online/analyse-cv](https://jobspeeder.online/analyse-cv?utm_source=github&utm_medium=readme&utm_campaign=cv-ats-check).
 
 Licence: MIT.
